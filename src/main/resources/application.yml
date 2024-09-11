@@ -13,7 +13,7 @@ spring:
       hibernate:
         format_sql: true
       naming:
-        physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy
+        physical-strategy: org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy # Camel -> under
     database-platform: org.hibernate.dialect.H2Dialect
   h2:
     console:
